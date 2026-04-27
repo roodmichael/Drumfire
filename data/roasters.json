@@ -1,0 +1,19 @@
+[
+  {
+    "id": "roaster-001",
+    "name": "GeneCafe CB-101",
+    "manufacturer": "GeneCafe",
+    "model": "CB-101",
+    "type": "drum",
+    "capacity_min_g": null,
+    "capacity_max_g": 250,
+    "controls": {
+      "temperature": true,
+      "airflow": false,
+      "drum_speed": false,
+      "timer": true
+    },
+    "temperature_display": "air temperature, not bean temp",
+    "notes": ""
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "bean-001",
+    "name": "Organic Cepco Oaxaca",
+    "origin_country": "Mexico",
+    "origin_region": "Oaxaca",
+    "farm_producer": "Cepco",
+    "variety": "Bourbon, Mundo Novo, Typica, Criollo",
+    "altitude_masl": 1350,
+    "processing": "washed",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": 2026,
+    "purchase_date": "2026-04-01",
+    "notes": "Altitude range 1200–1500 masl"
+  }
+,
+  {
+    "id": "bean-002",
+    "name": "Durato Bombe",
+    "origin_country": "Ethiopia",
+    "origin_region": "Sidamo",
+    "farm_producer": "",
+    "variety": "Heirloom",
+    "altitude_masl": 2100,
+    "processing": "natural",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": 2026,
+    "purchase_date": "2026-04-01",
+    "notes": "Altitude range 2050–2150 masl"
+  }
+]

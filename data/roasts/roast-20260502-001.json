@@ -1,0 +1,113 @@
+{
+  "id": "roast-20260502-001",
+  "date": "2026-05-02",
+  "status": "cupped",
+
+  "bean_id": "bean-002",
+  "bean_snapshot": {
+    "id": "bean-002",
+    "name": "Durato Bombe",
+    "origin_country": "Ethiopia",
+    "origin_region": "Sidamo",
+    "farm_producer": "",
+    "variety": "Heirloom",
+    "altitude_masl": 2100,
+    "processing": "natural",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": 2026,
+    "purchase_date": "2026-04-01",
+    "notes": "Altitude range 2050-2150 masl"
+  },
+
+  "roaster_id": "roaster-001",
+  "roaster_snapshot": {
+    "id": "roaster-001",
+    "name": "GeneCafe CB-101",
+    "manufacturer": "GeneCafe",
+    "model": "CB-101",
+    "type": "drum",
+    "capacity_min_g": null,
+    "capacity_max_g": 250,
+    "controls": {
+      "temperature": true,
+      "airflow": false,
+      "drum_speed": false,
+      "timer": true
+    },
+    "temperature_display": "air temperature, not bean temp",
+    "notes": ""
+  },
+
+  "intent": "light-medium roast",
+  "previous_roast_id": null,
+  "variable_changed": null,
+  "hypothesis": null,
+
+  "settings": {
+    "initial_temp_c": 205,
+    "initial_airflow": null,
+    "initial_drum_speed": null,
+    "ambient_temp_f": null,
+    "humidity_notes": "room temperature"
+  },
+
+  "adjustments": [
+    { "elapsed_s": 240, "temp_c": 215, "airflow": null, "drum_speed": null, "reason": "color change very slow" },
+    { "elapsed_s": 420, "temp_c": 225, "airflow": null, "drum_speed": null, "reason": "starting to yellow; wanted longer drying at lower temp but raised anyway" },
+    { "elapsed_s": 600, "temp_c": 235, "airflow": null, "drum_speed": null, "reason": "malt notes, beginning to brown" },
+    { "elapsed_s": 780, "temp_c": 240, "airflow": null, "drum_speed": null, "reason": "skin peeling, cinnamon brown, toffee aromas" }
+  ],
+
+  "green_weight_g": 225,
+
+  "timeline": {
+    "yellowing_s": 420,
+    "first_crack_onset_s": 900,
+    "first_crack_end_s": null,
+    "second_crack_onset_s": null,
+    "drop_s": 1020,
+    "total_time_s": 1020,
+    "development_time_s": null,
+    "development_time_ratio": null
+  },
+
+  "sensory": {
+    "aroma_drying": "minimal aroma, very slight color change at 4 min",
+    "aroma_maillard": "malt notes at 10 min",
+    "aroma_development": "toffee at 13 min",
+    "color_at_yellowing": "",
+    "color_at_drop": "cinnamon brown, uneven",
+    "crack_character": "first crack not audible over CB-101 noise but confirmed by visible signs post-roast",
+    "observations": "skin began peeling at 13 min; first crack occurred but inaudible due to machine noise — confirmed visually; dropped at 17 min as over-roasted; color uneven across batch"
+  },
+
+  "post_roast": {
+    "roasted_weight_g": 202,
+    "weight_loss_pct": 10.2,
+    "target_roast_level": "medium-light",
+    "roast_level_achieved": "",
+    "aroma_cooled": "no acrid or burnt smell"
+  },
+
+  "cuppings": [
+    {
+      "cupping_date": "2026-05-02",
+      "rest_hours": 168,
+      "brew_method": "cupping — 8g grounds, 150mL water just under boiling, 4 minute rest",
+      "aroma_dry": "cocoa, dried strawberry",
+      "aroma_wet": "cocoa, touch of malt",
+      "acidity": { "rating": 3, "notes": "dried fruit character" },
+      "sweetness": { "rating": 2, "notes": "" },
+      "body": { "rating": 2, "notes": "thin" },
+      "finish_length": null,
+      "finish_quality": "slightly bitter, not unpleasant",
+      "flavor_descriptors": ["cocoa", "dried strawberry", "malt", "dried fruit"],
+      "defect_flags": ["baked"],
+      "overall_rating": 6,
+      "tasting_notes_free": "thin and underdeveloped; not expressing the full character of the bean; clear potential given the dried fruit and cocoa notes coming through despite a baked profile",
+      "hypothesis_result": "",
+      "next_adjustment": "longer drying process"
+    }
+  ]
+}

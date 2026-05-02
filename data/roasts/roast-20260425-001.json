@@ -1,0 +1,93 @@
+{
+  "id": "roast-20260425-001",
+  "date": "2026-04-25",
+  "status": "roasted",
+
+  "bean_id": "bean-001",
+  "bean_snapshot": {
+    "id": "bean-001",
+    "name": "Organic Cepco Oaxaca",
+    "origin_country": "Mexico",
+    "origin_region": "Oaxaca",
+    "farm_producer": "Cepco",
+    "variety": "Bourbon, Mundo Novo, Typica, Criollo",
+    "altitude_masl": 1350,
+    "processing": "washed",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": 2026,
+    "purchase_date": "2026-04-01",
+    "notes": "Altitude range 1200–1500 masl"
+  },
+
+  "roaster_id": "roaster-001",
+  "roaster_snapshot": {
+    "id": "roaster-001",
+    "name": "GeneCafe CB-101",
+    "manufacturer": "GeneCafe",
+    "model": "CB-101",
+    "type": "drum",
+    "capacity_min_g": null,
+    "capacity_max_g": 250,
+    "controls": {
+      "temperature": true,
+      "airflow": false,
+      "drum_speed": false,
+      "timer": true
+    },
+    "temperature_display": "air temperature, not bean temp",
+    "notes": ""
+  },
+
+  "intent": "medium-light roast",
+  "previous_roast_id": null,
+  "variable_changed": null,
+  "hypothesis": null,
+
+  "settings": {
+    "initial_temp_c": 205,
+    "initial_airflow": null,
+    "initial_drum_speed": null,
+    "ambient_temp_f": null,
+    "humidity_notes": "room temperature"
+  },
+
+  "adjustments": [
+    { "elapsed_s": 360, "temp_c": 215, "airflow": null, "drum_speed": null, "reason": "yellowing complete" },
+    { "elapsed_s": 480, "temp_c": 225, "airflow": null, "drum_speed": null, "reason": "beans at cinnamon brown, Maillard progressing" },
+    { "elapsed_s": 600, "temp_c": 235, "airflow": null, "drum_speed": null, "reason": "first crack onset, entering development" }
+  ],
+
+  "green_weight_g": 225.25,
+
+  "timeline": {
+    "yellowing_s": 360,
+    "first_crack_onset_s": 600,
+    "first_crack_end_s": null,
+    "second_crack_onset_s": null,
+    "drop_s": 750,
+    "total_time_s": 750,
+    "development_time_s": null,
+    "development_time_ratio": null
+  },
+
+  "sensory": {
+    "aroma_drying": "slight bread, maybe hay at 3 minutes; no color change until 4.5 minutes",
+    "aroma_maillard": "",
+    "aroma_development": "",
+    "color_at_yellowing": "yellowed at 6 minutes",
+    "color_at_drop": "",
+    "crack_character": "first crack at 10 minutes",
+    "observations": "color slightly yellow at 4.5 min; full yellow at 6 min; began browning at 7.5 min; cinnamon at 8 min; light brown at 9 min; first crack at 10 min; 7-minute cooling cycle, beans continued developing post-drop; NOTE: 7.9% weight loss is anomalously low given the roast profile — possible measurement error; verify against actual roasted weight before drawing conclusions"
+  },
+
+  "post_roast": {
+    "roasted_weight_g": 207.35,
+    "weight_loss_pct": 7.9,
+    "target_roast_level": "medium-light",
+    "roast_level_achieved": "medium",
+    "aroma_cooled": ""
+  },
+
+  "cuppings": []
+}

@@ -1,7 +1,7 @@
 {
   "id": "roast-20260425-001",
   "date": "2026-04-25",
-  "status": "roasted",
+  "status": "cupped",
 
   "bean_id": "bean-001",
   "bean_snapshot": {
@@ -89,5 +89,24 @@
     "aroma_cooled": ""
   },
 
-  "cuppings": []
+  "cuppings": [
+    {
+      "cupping_date": "2026-05-09",
+      "rest_hours": 336,
+      "brew_method": "traditional cupping bowl",
+      "aroma_dry": "roasted nuts, cocoa, earth",
+      "aroma_wet": "dark cocoa, nutty",
+      "acidity": { "rating": 3, "notes": "present but not sparkling; less brightness than expected for a washed coffee at this altitude" },
+      "sweetness": { "rating": 3, "notes": "weak caramel and manuka honey; sugars developed but fruit brightness muted" },
+      "body": { "rating": 3, "notes": "present but not thick" },
+      "finish_length": "long",
+      "finish_quality": "pleasant leaning toward dry",
+      "flavor_descriptors": ["nutty", "roasty"],
+      "defect_flags": ["underdeveloped"],
+      "overall_rating": 6,
+      "tasting_notes_free": "Consistent nutty/roasty profile from dry aroma through the cup. Cocoa in aroma didn't carry through as a distinct flavor. Flatness and dry finish suggest abbreviated Maillard phase and possible mild underdevelopment.",
+      "hypothesis_result": "",
+      "next_adjustment": "Charge at 215°C instead of 205°C to shorten drying phase and allow more proportional Maillard time. Target yellowing at ~5:00 instead of 6:00. Step temps more slowly through browning: 215→220 at yellow, 220→230 at cinnamon, 230→235 at FC onset. Log FC end time to compute actual DTR. Target 2:30–3:00 post-FC end development."
+    }
+  ]
 }

@@ -1,0 +1,89 @@
+{
+  "id": "roast-20260502-002",
+  "date": "2026-05-02",
+  "status": "in_progress",
+
+  "bean_id": "bean-002",
+  "bean_snapshot": {
+    "id": "bean-002",
+    "name": "Durato Bombe",
+    "origin_country": "Ethiopia",
+    "origin_region": "Sidamo",
+    "farm_producer": "",
+    "variety": "Heirloom",
+    "altitude_masl": 2100,
+    "processing": "natural",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": 2026,
+    "purchase_date": "2026-04-01",
+    "notes": "Altitude range 2050-2150 masl"
+  },
+
+  "roaster_id": "roaster-001",
+  "roaster_snapshot": {
+    "id": "roaster-001",
+    "name": "GeneCafe CB-101",
+    "manufacturer": "GeneCafe",
+    "model": "CB-101",
+    "type": "drum",
+    "capacity_min_g": null,
+    "capacity_max_g": 250,
+    "controls": {
+      "temperature": true,
+      "airflow": false,
+      "drum_speed": false,
+      "timer": true
+    },
+    "temperature_display": "air temperature, not bean temp",
+    "notes": ""
+  },
+
+  "intent": "light roast — controlled profile, fix baked result from roast 1",
+  "previous_roast_id": "roast-20260502-001",
+  "variable_changed": "starting temperature increased 205°C → 215°C; deliberate temp reduction at FC onset to control development pace",
+  "hypothesis": "Starting 10°C hotter will build momentum through drying and Maillard, pushing FC onset to 12–13 min and total time under 16 min. Reduction to 220°C at FC onset will give a controlled 45–60 sec development window and produce 12–14% weight loss, unlocking the fruit and sweetness suppressed by the baked first roast.",
+
+  "settings": {
+    "initial_temp_c": 215,
+    "initial_airflow": null,
+    "initial_drum_speed": null,
+    "ambient_temp_f": null,
+    "humidity_notes": ""
+  },
+
+  "adjustments": [],
+
+  "green_weight_g": 225,
+
+  "timeline": {
+    "yellowing_s": null,
+    "first_crack_onset_s": null,
+    "first_crack_end_s": null,
+    "second_crack_onset_s": null,
+    "drop_s": null,
+    "total_time_s": null,
+    "development_time_s": null,
+    "development_time_ratio": null
+  },
+
+  "sensory": {
+    "aroma_drying": "",
+    "aroma_maillard": "",
+    "aroma_development": "",
+    "color_at_yellowing": "",
+    "color_at_drop": "",
+    "crack_character": "",
+    "observations": ""
+  },
+
+  "post_roast": {
+    "roasted_weight_g": null,
+    "weight_loss_pct": null,
+    "target_roast_level": "light",
+    "roast_level_achieved": "",
+    "aroma_cooled": ""
+  },
+
+  "cuppings": []
+}

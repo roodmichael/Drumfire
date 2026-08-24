@@ -1,0 +1,92 @@
+{
+  "id": "roast-20260822-001",
+  "date": "2026-08-22",
+  "status": "roasted",
+
+  "bean_id": "bean-002",
+  "bean_snapshot": {
+    "id": "bean-002",
+    "name": "Durato Bombe",
+    "origin_country": "Ethiopia",
+    "origin_region": "Sidamo",
+    "farm_producer": "",
+    "variety": "Heirloom",
+    "altitude_masl": 2100,
+    "processing": "natural",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": 2026,
+    "purchase_date": "2026-04-01",
+    "notes": "Altitude range 2050-2150 masl"
+  },
+
+  "roaster_id": "roaster-001",
+  "roaster_snapshot": {
+    "id": "roaster-001",
+    "name": "GeneCafe CB-101",
+    "manufacturer": "GeneCafe",
+    "model": "CB-101",
+    "type": "drum",
+    "capacity_min_g": null,
+    "capacity_max_g": 250,
+    "controls": {
+      "temperature": true,
+      "airflow": false,
+      "drum_speed": false,
+      "timer": true
+    },
+    "temperature_display": "air temperature, not bean temp",
+    "notes": ""
+  },
+
+  "intent": "light roast - fix insufficient drying and moisture loss across previous roasts",
+  "previous_roast_id": "roast-20260605-002",
+  "variable_changed": "charge at 215C after 8 min preheat and hold through drying (color-triggered, not clock-triggered); planned steps 215->225 at full yellow and 225->230 at cinnamon; no planned temp reduction at FC onset",
+  "hypothesis": "Holding 215C through the full drying phase until visual full yellow will drive adequate moisture loss (target 12-14% weight loss). Color-triggered steps rather than clock-triggered steps will allow the drying phase to complete before pushing into Maillard. This should produce better sweetness and body compared to the flat, baked profiles seen across the previous three roasts.",
+
+  "settings": {
+    "initial_temp_c": 215,
+    "initial_airflow": null,
+    "initial_drum_speed": null,
+    "ambient_temp_f": 75,
+    "humidity_notes": ""
+  },
+
+  "adjustments": [
+    { "elapsed_s": 600, "temp_c": 225, "airflow": null, "drum_speed": null, "reason": "first planned step; color was already essentially cinnamon, so the step landed later than the planned full-yellow trigger" },
+    { "elapsed_s": 960, "temp_c": 235, "airflow": null, "drum_speed": null, "reason": "first crack end; plan called for 225->230 at cinnamon, took 225->235 here instead" }
+  ],
+
+  "green_weight_g": 222,
+
+  "timeline": {
+    "yellowing_s": 420,
+    "first_crack_onset_s": 810,
+    "first_crack_end_s": 960,
+    "second_crack_onset_s": null,
+    "drop_s": 1050,
+    "total_time_s": 1050,
+    "development_time_s": 90,
+    "development_time_ratio": 0.086
+  },
+
+  "sensory": {
+    "aroma_drying": "toasted bread at 2:30, beans still green",
+    "aroma_maillard": "caramel/toffee at 5:00 as yellowing began; roasted peanut at 7:00",
+    "aroma_development": "",
+    "color_at_yellowing": "starting to yellow at 5:00; full peanut color at 7:00",
+    "color_at_drop": "medium",
+    "crack_character": "first crack onset 13:30, end 16:00 - 2:30 of crack",
+    "observations": "Timer counted down from 18:00; elapsed times derived as 18:00 minus remaining. Preheated to 215C for 8 min before charge, first batch of the day, ambient 75F. Silverskin visibly loosening at 8:00 and shedding heavily at 15:00; nearly all gone at drop. Dropped to cooldown at 17:30, 7 min cooling cycle, then into a colander. Plan carried forward from roast-20260502-002 (created 2026-05-02, never roasted); that placeholder file was removed when this roast was logged. Deviations from plan: the 215->225 step was taken at 10:00 when color was already cinnamon rather than at full yellow (~7:00), and the second step went to 235C at first crack end rather than 230C at cinnamon."
+  },
+
+  "post_roast": {
+    "roasted_weight_g": 193.78,
+    "weight_loss_pct": 12.7,
+    "target_roast_level": "light",
+    "roast_level_achieved": "medium-light",
+    "aroma_cooled": ""
+  },
+
+  "cuppings": []
+}

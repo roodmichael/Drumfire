@@ -1,7 +1,7 @@
 {
-  "id": "roast-20260502-002",
-  "date": "2026-05-02",
-  "status": "in_progress",
+  "id": "roast-20260605-002",
+  "date": "2026-06-05",
+  "status": "roasted",
 
   "bean_id": "bean-002",
   "bean_snapshot": {
@@ -17,7 +17,7 @@
     "lot_number": "",
     "harvest_year": 2026,
     "purchase_date": "2026-04-01",
-    "notes": "Altitude range 2050-2150 masl"
+    "notes": "Altitude range 2050–2150 masl"
   },
 
   "roaster_id": "roaster-001",
@@ -39,47 +39,50 @@
     "notes": ""
   },
 
-  "intent": "light roast — controlled profile, fix baked result from roast 1",
+  "intent": "light roast",
   "previous_roast_id": "roast-20260502-001",
-  "variable_changed": "starting temperature increased 205°C → 215°C; deliberate temp reduction at FC onset to control development pace",
-  "hypothesis": "Starting 10°C hotter will build momentum through drying and Maillard, pushing FC onset to 12–13 min and total time under 16 min. Reduction to 220°C at FC onset will give a controlled 45–60 sec development window and produce 12–14% weight loss, unlocking the fruit and sweetness suppressed by the baked first roast.",
+  "variable_changed": null,
+  "hypothesis": null,
 
   "settings": {
-    "initial_temp_c": 215,
+    "initial_temp_c": 195,
     "initial_airflow": null,
     "initial_drum_speed": null,
     "ambient_temp_f": null,
     "humidity_notes": ""
   },
 
-  "adjustments": [],
+  "adjustments": [
+    { "elapsed_s": 540, "temp_c": 215, "airflow": null, "drum_speed": null, "reason": "yellowing to cinnamon transition" },
+    { "elapsed_s": 750, "temp_c": 225, "airflow": null, "drum_speed": null, "reason": "first crack onset" }
+  ],
 
-  "green_weight_g": 225,
+  "green_weight_g": 238,
 
   "timeline": {
-    "yellowing_s": null,
-    "first_crack_onset_s": null,
+    "yellowing_s": 360,
+    "first_crack_onset_s": 750,
     "first_crack_end_s": null,
     "second_crack_onset_s": null,
-    "drop_s": null,
-    "total_time_s": null,
+    "drop_s": 840,
+    "total_time_s": 840,
     "development_time_s": null,
     "development_time_ratio": null
   },
 
   "sensory": {
-    "aroma_drying": "",
-    "aroma_maillard": "",
+    "aroma_drying": "bread at 2 min; toast at 4 min",
+    "aroma_maillard": "crystal malt yellow-brown at 9 min; cinnamon at 11 min",
     "aroma_development": "",
-    "color_at_yellowing": "",
-    "color_at_drop": "",
-    "crack_character": "",
-    "observations": ""
+    "color_at_yellowing": "color change at 6 min; crystal malt yellow-brown at 9 min",
+    "color_at_drop": "wet sand",
+    "crack_character": "first crack onset at 12.5 min",
+    "observations": "FC end time not recorded so DTR could not be computed"
   },
 
   "post_roast": {
-    "roasted_weight_g": null,
-    "weight_loss_pct": null,
+    "roasted_weight_g": 219,
+    "weight_loss_pct": 8.0,
     "target_roast_level": "light",
     "roast_level_achieved": "",
     "aroma_cooled": ""

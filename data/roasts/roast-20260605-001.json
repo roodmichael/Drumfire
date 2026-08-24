@@ -1,0 +1,92 @@
+{
+  "id": "roast-20260605-001",
+  "date": "2026-06-05",
+  "status": "roasted",
+
+  "bean_id": "bean-001",
+  "bean_snapshot": {
+    "id": "bean-001",
+    "name": "Organic Cepco Oaxaca",
+    "origin_country": "Mexico",
+    "origin_region": "Oaxaca",
+    "farm_producer": "Cepco",
+    "variety": "Bourbon, Mundo Novo, Typica, Criollo",
+    "altitude_masl": 1350,
+    "processing": "washed",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": 2026,
+    "purchase_date": "2026-04-01",
+    "notes": "Altitude range 1200–1500 masl"
+  },
+
+  "roaster_id": "roaster-001",
+  "roaster_snapshot": {
+    "id": "roaster-001",
+    "name": "GeneCafe CB-101",
+    "manufacturer": "GeneCafe",
+    "model": "CB-101",
+    "type": "drum",
+    "capacity_min_g": null,
+    "capacity_max_g": 250,
+    "controls": {
+      "temperature": true,
+      "airflow": false,
+      "drum_speed": false,
+      "timer": true
+    },
+    "temperature_display": "air temperature, not bean temp",
+    "notes": ""
+  },
+
+  "intent": "light roast",
+  "previous_roast_id": "roast-20260425-001",
+  "variable_changed": null,
+  "hypothesis": null,
+
+  "settings": {
+    "initial_temp_c": 195,
+    "initial_airflow": null,
+    "initial_drum_speed": null,
+    "ambient_temp_f": null,
+    "humidity_notes": ""
+  },
+
+  "adjustments": [
+    { "elapsed_s": 420, "temp_c": 215, "airflow": null, "drum_speed": null, "reason": "yellowing complete" },
+    { "elapsed_s": 690, "temp_c": 225, "airflow": null, "drum_speed": null, "reason": "first crack onset" }
+  ],
+
+  "green_weight_g": 221,
+
+  "timeline": {
+    "yellowing_s": 420,
+    "first_crack_onset_s": 690,
+    "first_crack_end_s": null,
+    "second_crack_onset_s": null,
+    "drop_s": 750,
+    "total_time_s": 750,
+    "development_time_s": null,
+    "development_time_ratio": null
+  },
+
+  "sensory": {
+    "aroma_drying": "bread/toast at 2 min; toast peaked at 3 min with beans starting to discolor",
+    "aroma_maillard": "malty at 8 min; cinnamon color and caramelizing at 10 min",
+    "aroma_development": "",
+    "color_at_yellowing": "peanut yellow at 5 min; full yellow at 7 min",
+    "color_at_drop": "wet sand",
+    "crack_character": "first crack at 11.5 min",
+    "observations": "6.5 min cooling cycle after drop; FC end time not recorded so DTR could not be computed"
+  },
+
+  "post_roast": {
+    "roasted_weight_g": 204,
+    "weight_loss_pct": 7.7,
+    "target_roast_level": "light",
+    "roast_level_achieved": "",
+    "aroma_cooled": ""
+  },
+
+  "cuppings": []
+}

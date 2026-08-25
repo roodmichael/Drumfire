@@ -1,7 +1,7 @@
 {
   "id": "roast-20260822-001",
   "date": "2026-08-22",
-  "status": "roasted",
+  "status": "cupped",
 
   "bean_id": "bean-002",
   "bean_snapshot": {
@@ -88,5 +88,38 @@
     "aroma_cooled": ""
   },
 
-  "cuppings": []
+  "cuppings": [
+    {
+      "cupping_date": "2026-08-25",
+      "rest_hours": 72,
+      "brew_method": "cupping - 8.25g coarse ground, 150mL at 93C, 4 min steep, crust broken at 4:00",
+      "aroma_dry": "dark chocolate, dried fruit (possibly stone fruit)",
+      "aroma_wet": "chocolate-forward, less dried fruit than the dry aroma; notably substantial and dense, not thin",
+      "acidity": {
+        "rating": 3,
+        "notes": "bright, clean citrus; a slight touch of sourness at the front"
+      },
+      "sweetness": {
+        "rating": 4,
+        "notes": "honey; major lift over the flat 2/5 of the May cup"
+      },
+      "body": {
+        "rating": 3,
+        "notes": "medium; up from thin (2/5) in May"
+      },
+      "finish_length": "long",
+      "finish_quality": "sweet with lingering acidity on the back of the tongue; pleasant",
+      "flavor_descriptors": [
+        "citrus",
+        "honey"
+      ],
+      "defect_flags": [
+        "astringent"
+      ],
+      "overall_rating": 8,
+      "tasting_notes_free": "Big step up from the May cup (6/10, flagged baked). Bake characteristics fully resolved: sweetness doubled, body up, and the finish went from absent to long and sweet. Cup reads complex and layered - individual notes hard to isolate, which is characteristic of a natural Ethiopian rather than a fault. Chocolate and stone fruit appeared on the nose but did not carry into the cup. One flaw remains: a black-tea-like astringency on the middle of the tongue, holding it back from higher marks.",
+      "hypothesis_result": "CONFIRMED. Holding 215C through the full drying phase with color-triggered steps drove weight loss to 12.7% (target 12-14%) and eliminated the baked profile that affected the previous three roasts. Sweetness rose from 2 to 4, body from 2 to 3, overall from 6 to 8, and the finish went from absent to long and sweet. The predicted improvement in sweetness and body was realised. New constraint surfaced at the back of the roast: development time of 90s gave DTR 0.086, roughly half the 0.15-0.25 target, producing the residual astringency.",
+      "next_adjustment": "Extend development from 90s to 150s while SHORTENING total roast time, by executing the temperature steps on their intended color triggers rather than late. This roast's steps landed ~3 min late (215->225 taken at 10:00 when color was already cinnamon, instead of at full yellow ~7:00; 225->235 taken at 16:00 / FC end instead of at cinnamon), leaving the machine at 225C through all of Maillard and all of first crack. Next roast: charge at 215C after 8 min preheat, hold through drying; step 215->225 AT full yellow (~7:00); step 225->235 AT cinnamon (~10:00); no reduction at FC onset; drop at FC end + 150s. Projected: FC onset ~11:00, FC end ~13:30, drop ~16:00, total 960s, development 150s, DTR ~0.156 (in target range). WATCH: (1) roast level will climb - expect 14-15% weight loss, likely landing medium-light to medium rather than light; if staying light is the priority, extend development to 120s instead of 150s. (2) Arriving at FC with more energy may produce a louder, faster crack and a compressed drop window - be at the machine ready to drop, and account for the CB-101's 60-90s adjustment lag."
+    }
+  ]
 }

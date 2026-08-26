@@ -13,8 +13,7 @@
     "harvest_year": 2026,
     "purchase_date": "2026-04-01",
     "notes": "Altitude range 1200–1500 masl"
-  }
-,
+  },
   {
     "id": "bean-002",
     "name": "Durato Bombe",
@@ -29,5 +28,20 @@
     "harvest_year": 2026,
     "purchase_date": "2026-04-01",
     "notes": "Altitude range 2050–2150 masl"
+  },
+  {
+    "id": "bean-003",
+    "name": "Tanzania Peaberry",
+    "origin_country": "Tanzania",
+    "origin_region": "Kilimanjaro",
+    "farm_producer": "",
+    "variety": "Peaberry",
+    "altitude_masl": 1400,
+    "processing": "washed",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": 2026,
+    "purchase_date": "2026-08-19",
+    "notes": "Altitude range 1100–1700 masl. Harvest window May–December 2026."
   }
 ]

@@ -1,0 +1,94 @@
+{
+  "id": "roast-20260822-002",
+  "date": "2026-08-22",
+  "status": "roasted",
+  "bean_id": "bean-003",
+  "bean_snapshot": {
+    "id": "bean-003",
+    "name": "Tanzania Peaberry",
+    "origin_country": "Tanzania",
+    "origin_region": "Kilimanjaro",
+    "farm_producer": "",
+    "variety": "Peaberry",
+    "altitude_masl": 1400,
+    "processing": "washed",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": 2026,
+    "purchase_date": "2026-08-19",
+    "notes": "Altitude range 1100–1700 masl. Harvest window May–December 2026."
+  },
+  "roaster_id": "roaster-001",
+  "roaster_snapshot": {
+    "id": "roaster-001",
+    "name": "GeneCafe CB-101",
+    "manufacturer": "GeneCafe",
+    "model": "CB-101",
+    "type": "drum",
+    "capacity_min_g": null,
+    "capacity_max_g": 250,
+    "controls": {
+      "temperature": true,
+      "airflow": false,
+      "drum_speed": false,
+      "timer": true
+    },
+    "temperature_display": "air temperature, not bean temp",
+    "notes": ""
+  },
+  "intent": "first roast of a new bean - establish a baseline for Tanzania Peaberry",
+  "previous_roast_id": null,
+  "variable_changed": null,
+  "hypothesis": null,
+  "settings": {
+    "initial_temp_c": 215,
+    "initial_airflow": null,
+    "initial_drum_speed": null,
+    "ambient_temp_f": null,
+    "humidity_notes": ""
+  },
+  "adjustments": [
+    {
+      "elapsed_s": 600,
+      "temp_c": 225,
+      "airflow": null,
+      "drum_speed": null,
+      "reason": "full caramelization aroma, full cinnamon color, silverskin beginning to peel"
+    },
+    {
+      "elapsed_s": 900,
+      "temp_c": 235,
+      "airflow": null,
+      "drum_speed": null,
+      "reason": "first crack onset"
+    }
+  ],
+  "green_weight_g": 250.95,
+  "timeline": {
+    "yellowing_s": 420,
+    "first_crack_onset_s": 900,
+    "first_crack_end_s": 1140,
+    "second_crack_onset_s": null,
+    "drop_s": 1200,
+    "total_time_s": 1200,
+    "development_time_s": 60,
+    "development_time_ratio": 0.05
+  },
+  "sensory": {
+    "aroma_drying": "toasted bread at 2:30, beans still green; toasted bread again at 5:00 as color started to change",
+    "aroma_maillard": "lightly roasted peanuts at 7:00; caramel malt at 8:30; full caramelization at 10:00",
+    "aroma_development": "full roast smell at 15:00 as first crack began",
+    "color_at_yellowing": "browning/yellowing at 7:00 with beans plumping; dark popcorn kernel color at 8:30; full cinnamon at 10:00",
+    "color_at_drop": "notably dark - darker than the 12.8% weight loss and 60s development would predict",
+    "crack_character": "first crack onset 15:00, end 19:00 - 4:00 of crack",
+    "observations": "Timer counted down from 18:00; elapsed times derived as 18:00 minus remaining, so notes logged past 0:00 (-1:00, -2:00) are 19:00 and 20:00 elapsed. Silverskin began peeling at 10:00 and was peeling again at 19:00. Dropped to cooldown at 20:00, cooling ran to 26:00 elapsed (6 min). Green weight 250.95g is marginally over the CB-101's 250g rated capacity. Post-roast assessment: color came out considerably darker than target and the cooled beans carry a faint smoke note, despite weight loss (12.8%) and development time (60s) both landing in the light-roast band and no second crack. roast_level_achieved recorded as light on the strength of the moisture and development numbers; the dark surface color reads as a bake artifact from the 20:00 total time rather than a genuinely darker roast. Pending visual check for tipped beans to rule out scorch."
+  },
+  "post_roast": {
+    "roasted_weight_g": 218.72,
+    "weight_loss_pct": 12.8,
+    "target_roast_level": "light to medium-light",
+    "roast_level_achieved": "light",
+    "aroma_cooled": "faint smoke"
+  },
+  "cuppings": []
+}

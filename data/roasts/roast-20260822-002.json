@@ -1,7 +1,7 @@
 {
   "id": "roast-20260822-002",
   "date": "2026-08-22",
-  "status": "roasted",
+  "status": "cupped",
   "bean_id": "bean-003",
   "bean_snapshot": {
     "id": "bean-003",
@@ -16,7 +16,7 @@
     "lot_number": "",
     "harvest_year": 2026,
     "purchase_date": "2026-08-19",
-    "notes": "Altitude range 1100–1700 masl. Harvest window May–December 2026."
+    "notes": "Altitude range 1100\u20131700 masl. Harvest window May\u2013December 2026."
   },
   "roaster_id": "roaster-001",
   "roaster_snapshot": {
@@ -90,5 +90,40 @@
     "roast_level_achieved": "light",
     "aroma_cooled": "faint smoke"
   },
-  "cuppings": []
+  "cuppings": [
+    {
+      "cupping_date": "2026-08-26",
+      "rest_hours": 96,
+      "brew_method": "cupping bowl - 8g coarse, 150mL at 93C, 4 min, crust broken at 4:00",
+      "aroma_dry": "dark chocolate, earth - darker descriptors than a 12.8% weight loss / 60s development roast should produce",
+      "aroma_wet": "smoky and roasty; smoke carried through from the cooled-bean aroma and dominated the crust break",
+      "acidity": {
+        "rating": 3,
+        "notes": "present and pleasant, more fruity than citric, a touch thin"
+      },
+      "sweetness": {
+        "rating": 3,
+        "notes": "noticeable fruit sweetness; survived despite the long roast"
+      },
+      "body": {
+        "rating": 3,
+        "notes": "medium - comparable to 2% milk"
+      },
+      "finish_length": "medium",
+      "finish_quality": "lingers a few seconds then disappears; mildly astringent but not unpleasant",
+      "flavor_descriptors": [
+        "roasty",
+        "nutty",
+        "fruity",
+        "earthy"
+      ],
+      "defect_flags": [
+        "astringent"
+      ],
+      "overall_rating": 8,
+      "tasting_notes_free": "Better than the roast log predicted. The 20:00 total time and dark surface color suggested a bake, but acidity (3) and sweetness (3) both came through with fruit character intact - the Maillard phase held momentum (ratio 0.40, aroma progressed bready -> peanut -> caramel with no stall), so the bake hypothesis is rejected. The real faults are surface over-roast (smoke and roasty/earthy notes masking the washed Tanzanian citrus character) and mild astringency from the 60s development. Visual check confirmed no tipping, ruling out scorch: the dark surface is prolonged drum contact across 20 minutes, not heat spotting.",
+      "hypothesis_result": "No hypothesis was set - this was a baseline first roast of the bean. Baseline established: 215C charge, 250.95g, 20:00 total, DTR 0.05 yields a drinkable 8/10 cup with fruit and medium body, undercut by smoke and a mildly astringent finish.",
+      "next_adjustment": "Target a medium roast. Drop green weight to 225g (250.95g was over the CB-101's 250g rating and contributed to the 20:00 total) and raise initial temp to 225C. Target first crack onset at 11:00-12:00 and drop at 14:30 for a DTR of ~0.17, up from 0.05. Pre-set the step to 235C at 8:00 on the clock rather than reacting to the aroma cue - temperature steps have landed later than intended on the last two roasts due to countdown-timer math."
+    }
+  ]
 }

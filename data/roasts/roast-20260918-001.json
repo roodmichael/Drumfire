@@ -1,0 +1,126 @@
+{
+  "id": "roast-20260918-001",
+  "date": "2026-09-18",
+  "status": "cupped",
+
+  "bean_id": "bean-002",
+  "bean_snapshot": {
+    "id": "bean-002",
+    "name": "Durato Bombe",
+    "origin_country": "Ethiopia",
+    "origin_region": "Sidamo",
+    "farm_producer": "",
+    "variety": "Heirloom",
+    "altitude_masl": 2100,
+    "processing": "natural",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": 2026,
+    "purchase_date": "2026-04-01",
+    "notes": "Altitude range 2050-2150 masl"
+  },
+
+  "roaster_id": "roaster-001",
+  "roaster_snapshot": {
+    "id": "roaster-001",
+    "name": "GeneCafe CB-101",
+    "manufacturer": "GeneCafe",
+    "model": "CB-101",
+    "type": "drum",
+    "capacity_min_g": null,
+    "capacity_max_g": 250,
+    "controls": {
+      "temperature": true,
+      "airflow": false,
+      "drum_speed": false,
+      "timer": true
+    },
+    "temperature_display": "air temperature, not bean temp",
+    "notes": ""
+  },
+
+  "intent": "light roast - extend development time while keeping total roast time in check, resolving the astringency defect from roast-20260822-001",
+  "previous_roast_id": "roast-20260822-001",
+  "variable_changed": "Applied previous roast's next_adjustment: color-triggered steps 215->225C at full yellow, 225->235C at full cinnamon; no reduction at FC onset; targeted drop at FC end + 150s",
+  "hypothesis": "Executing the 215->225C step at full yellow and 225->235C at full cinnamon (color-triggered, on-plan rather than late) and holding through FC before dropping ~150s after FC end will extend development time to ~150s (DTR ~0.156), resolving the astringency defect from the previous roast while landing a medium-light roast around 14-15% weight loss.",
+
+  "settings": {
+    "initial_temp_c": 215,
+    "initial_airflow": null,
+    "initial_drum_speed": null,
+    "ambient_temp_f": null,
+    "humidity_notes": ""
+  },
+
+  "adjustments": [
+    { "elapsed_s": 510, "temp_c": 225, "airflow": null, "drum_speed": null, "reason": "full yellow, per plan" },
+    { "elapsed_s": 660, "temp_c": 235, "airflow": null, "drum_speed": null, "reason": "full cinnamon, per plan" }
+  ],
+
+  "green_weight_g": 219.16,
+
+  "timeline": {
+    "yellowing_s": 510,
+    "first_crack_onset_s": 1020,
+    "first_crack_end_s": 1080,
+    "second_crack_onset_s": null,
+    "drop_s": 1140,
+    "total_time_s": 1140,
+    "development_time_s": 60,
+    "development_time_ratio": 0.053
+  },
+
+  "sensory": {
+    "aroma_drying": "wet bread/grass at 2:00; no color change but sugared toast smell at 4:00",
+    "aroma_maillard": "roasted peanuts at 6:00; baked bread at full yellow (8:30); sugared toast again at 10:00 turning cinnamon",
+    "aroma_development": "light leaf fire smell at 15:00, not burning",
+    "color_at_yellowing": "starting to turn peanut color at 5:00; full yellow at 8:30; turning cinnamon at 10:00 (looked like autumn leaves); full cinnamon at 11:00",
+    "color_at_drop": "medium-light roast, beautiful looking beans",
+    "crack_character": "FC onset 17:00, very audible; FC end 18:00 (1:00 duration)",
+    "observations": "Silverskin starting to flake at 12:00; really coming off by 15:00. Stepped 215->225C at full yellow (8:30, vs plan's ~7:00 target); stepped 225->235C at full cinnamon (11:00, vs plan's ~10:00 target) - both color-triggered as intended, though colors arrived later than projected. No reduction at FC onset per plan. Dropped 1:00 after FC end rather than the planned +150s, giving development time of only 60s (DTR 0.053) - well short of the 150s/0.156 target from the previous roast's next_adjustment."
+  },
+
+  "post_roast": {
+    "roasted_weight_g": 189.05,
+    "weight_loss_pct": 13.7,
+    "target_roast_level": "light",
+    "roast_level_achieved": "medium-light",
+    "aroma_cooled": ""
+  },
+
+  "cuppings": [
+    {
+      "cupping_date": "2026-09-21",
+      "rest_hours": 72,
+      "brew_method": "cupping - 8g coarse ground, 150mL at 93C, 4 min steep, crust broken at 4:00",
+      "aroma_dry": "chocolate, dried strawberries",
+      "aroma_wet": "earthy, indistinct - no individual notes stood out",
+      "acidity": {
+        "rating": 2,
+        "notes": "down from 3/5 last roast; muted"
+      },
+      "sweetness": {
+        "rating": 3,
+        "notes": "caramel with a bit of fruit sweetness; not hollow"
+      },
+      "body": {
+        "rating": 4,
+        "notes": "heavy, up from 3/5 last roast"
+      },
+      "finish_length": "medium",
+      "finish_quality": "mild astringency, not unpleasant; some fruit character underneath",
+      "flavor_descriptors": [
+        "chocolate",
+        "caramel",
+        "fruit"
+      ],
+      "defect_flags": [
+        "astringent"
+      ],
+      "overall_rating": 7,
+      "tasting_notes_free": "Tastes generically 'like coffee' - roast character more pronounced than the 8/22 cup, origin character (chocolate/strawberry) muted rather than forward. Heavy, roasty, caramel-forward. Astringency present but mild and not unpleasant, an improvement in character from the clear flaw on the previous roast, though not eliminated.",
+      "hypothesis_result": "CONTRADICTED on mechanism, though weight loss landed close to target. The plan called for color-triggered steps and a drop at FC end + 150s to reach DTR ~0.156 and resolve the astringency via extended development. In execution, both color triggers arrived later than their clock targets (full yellow at 8:30 vs ~7:00 planned; full cinnamon at 11:00 vs ~10:00 planned), driving total roast time to 19:00 - well above the normal 12-16 min band - and the drop came only 60s after FC end instead of 150s, giving DTR 0.053, the lowest yet. The extended-development mechanism was never actually tested. The milder astringency this time is more likely a byproduct of the extra total heat exposure from the long roast than of development time. Overall rating fell 8 to 7: acidity and origin character (chocolate/stone fruit/honey) dropped as roast-forward, heavier character took over.",
+      "next_adjustment": "Switch to clock-triggered steps instead of color-triggered: 215->225C at 7:00 (420s), 225->235C at 10:00 (600s), regardless of visual color state - color has run 1.5-3 min behind the clock on the last three roasts. No reduction at FC onset. Set a physical timer at FC end for +150s and drop on the timer, not by feel, to finally test the development window that's been planned twice but executed at only 60-90s both times. Goal: pull total roast time back toward the 16 min target while landing DTR in the 0.15-0.25 range. Also log ambient_temp_f this time (missing from this roast) to rule out a cooler day contributing to the slow drying/Maillard pace."
+    }
+  ]
+}

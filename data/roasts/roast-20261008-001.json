@@ -1,0 +1,89 @@
+{
+  "id": "roast-20261008-001",
+  "date": "2026-10-08",
+  "status": "in_progress",
+
+  "bean_id": "bean-004",
+  "bean_snapshot": {
+    "id": "bean-004",
+    "name": "Mexico La Laja Honey",
+    "origin_country": "Mexico",
+    "origin_region": "Tlaltetela, Veracruz",
+    "farm_producer": "La Laja",
+    "variety": "Caturra, Garnica",
+    "altitude_masl": 1190,
+    "processing": "honey",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": null,
+    "purchase_date": "2026-09-01",
+    "notes": "Altitude range 1130–1250 masl"
+  },
+
+  "roaster_id": "roaster-001",
+  "roaster_snapshot": {
+    "id": "roaster-001",
+    "name": "GeneCafe CB-101",
+    "manufacturer": "GeneCafe",
+    "model": "CB-101",
+    "type": "drum",
+    "capacity_min_g": null,
+    "capacity_max_g": 250,
+    "controls": {
+      "temperature": true,
+      "airflow": false,
+      "drum_speed": false,
+      "timer": true
+    },
+    "temperature_display": "air temperature, not bean temp",
+    "notes": ""
+  },
+
+  "intent": "medium-light roast - first roast of a new bean, establish a baseline for Mexico La Laja Honey using the clock-backed profile planned after roast-20260918-001 (Durato Bombe)",
+  "previous_roast_id": null,
+  "variable_changed": "Baseline for this bean. Carrying over the clock-triggered step method from the Durato Bombe next_adjustment: drop on a physical timer at first crack end + 90s instead of by feel.",
+  "hypothesis": "Clock-backed steps (215C charge, 215->225C at full yellow or 7:00 whichever comes first, 225->235C at cinnamon or 10:00 whichever comes first, no reduction at FC onset) with a timer-driven drop at FC end + 90s will land total time at 14-16 min, DTR ~0.10, ~13% weight loss (~196g roasted), medium-light. Watch for dark tips from honey-process sugars after cooling.",
+
+  "settings": {
+    "initial_temp_c": 215,
+    "initial_airflow": null,
+    "initial_drum_speed": null,
+    "ambient_temp_f": null,
+    "humidity_notes": ""
+  },
+
+  "adjustments": [],
+
+  "green_weight_g": 225,
+
+  "timeline": {
+    "yellowing_s": null,
+    "first_crack_onset_s": null,
+    "first_crack_end_s": null,
+    "second_crack_onset_s": null,
+    "drop_s": null,
+    "total_time_s": null,
+    "development_time_s": null,
+    "development_time_ratio": null
+  },
+
+  "sensory": {
+    "aroma_drying": "",
+    "aroma_maillard": "",
+    "aroma_development": "",
+    "color_at_yellowing": "",
+    "color_at_drop": "",
+    "crack_character": "",
+    "observations": "Plan source: private artifact page 'La Laja Roast Plan' (planned 2026-10-06). Log ambient/room temp and first crack end time. Drop on the timer, not by feel."
+  },
+
+  "post_roast": {
+    "roasted_weight_g": null,
+    "weight_loss_pct": null,
+    "target_roast_level": "medium-light",
+    "roast_level_achieved": "",
+    "aroma_cooled": ""
+  },
+
+  "cuppings": []
+}

@@ -26,7 +26,7 @@
     "supplier": "Coffee Bean Corral",
     "lot_number": "",
     "harvest_year": 2026,
-    "purchase_date": "2026-04-01",
+    "purchase_date": "2026-09-01",
     "notes": "Altitude range 2050–2150 masl"
   },
   {
@@ -43,5 +43,20 @@
     "harvest_year": 2026,
     "purchase_date": "2026-08-19",
     "notes": "Altitude range 1100–1700 masl. Harvest window May–December 2026."
+  },
+  {
+    "id": "bean-004",
+    "name": "Mexico La Laja Honey",
+    "origin_country": "Mexico",
+    "origin_region": "Tlaltetela, Veracruz",
+    "farm_producer": "La Laja",
+    "variety": "Caturra, Garnica",
+    "altitude_masl": 1190,
+    "processing": "honey",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": null,
+    "purchase_date": "2026-09-01",
+    "notes": "Altitude range 1130–1250 masl"
   }
 ]

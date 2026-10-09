@@ -63,7 +63,7 @@
     "aroma_drying": "",
     "aroma_maillard": "",
     "aroma_development": "",
-    "color_at_yellowing": "",
+    "color_at_yellowing": "starting to yellow at 4:00 (15 left)",
     "color_at_drop": "",
     "crack_character": "",
     "observations": "Roaster timer is a 19 min countdown this roast (not 17); user reports times as minutes remaining, converted to elapsed (19:00 - remaining)."

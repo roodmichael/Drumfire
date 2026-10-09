@@ -47,10 +47,18 @@
     "ambient_temp_f": 67,
     "humidity_notes": ""
   },
-  "adjustments": [],
+  "adjustments": [
+    {
+      "elapsed_s": 360,
+      "temp_c": 225,
+      "airflow": null,
+      "drum_speed": null,
+      "reason": "full yellow (ahead of 7:00 clock trigger)"
+    }
+  ],
   "green_weight_g": 215.24,
   "timeline": {
-    "yellowing_s": null,
+    "yellowing_s": 360,
     "first_crack_onset_s": null,
     "first_crack_end_s": null,
     "second_crack_onset_s": null,
@@ -60,13 +68,13 @@
     "development_time_ratio": null
   },
   "sensory": {
-    "aroma_drying": "bread smell at '14' (time unconfirmed); beans starting to dry out, still green",
-    "aroma_maillard": "roasted nuts smell at ~12:00",
+    "aroma_drying": "bread smell at 3:00 (14 min left on countdown); beans starting to dry out, still green",
+    "aroma_maillard": "roasted nuts/peanuts smell from 5:00, still at 6:00",
     "aroma_development": "",
-    "color_at_yellowing": "peanut color at 12:00 (full yellow not yet reported)",
+    "color_at_yellowing": "peanut color at 5:00 (12 left); full yellow at 6:00 (11 left)",
     "color_at_drop": "",
     "crack_character": "",
-    "observations": "Plan source: private artifact page 'La Laja Roast Plan' (planned 2026-10-06). Log ambient/room temp and first crack end time. Drop on the timer, not by feel. | Roaster timer set for 17 (min, assumed)."
+    "observations": "Plan source: private artifact page 'La Laja Roast Plan' (planned 2026-10-06). Drop on the timer, not by feel. Roaster timer is a 17 min countdown; user reports times as minutes remaining, converted to elapsed (17:00 - remaining)."
   },
   "post_roast": {
     "roasted_weight_g": null,

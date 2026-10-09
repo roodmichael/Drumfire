@@ -1,7 +1,7 @@
 {
   "id": "roast-20261009-002",
   "date": "2026-10-09",
-  "status": "in_progress",
+  "status": "roasted",
   "bean_id": "bean-004",
   "bean_snapshot": {
     "id": "bean-004",
@@ -69,10 +69,10 @@
     "first_crack_onset_s": 840,
     "first_crack_end_s": 930,
     "second_crack_onset_s": null,
-    "drop_s": null,
-    "total_time_s": null,
-    "development_time_s": null,
-    "development_time_ratio": null
+    "drop_s": 1050,
+    "total_time_s": 1050,
+    "development_time_s": 120,
+    "development_time_ratio": 0.114
   },
   "sensory": {
     "aroma_drying": "",
@@ -81,7 +81,7 @@
     "color_at_yellowing": "starting to turn peanut color at 4:00 (15 left); very peanut color later (time not given); full yellow at 7:00 (12 left); still a bit lighter than cinnamon at 10:00 (9 left); cinnamon at 10:30 (8:30 left)",
     "color_at_drop": "",
     "crack_character": "FC onset at 5.0 left (14:00 elapsed; earlier 6.3 reading was a mistake); very audible at 4.2 left (14:48 elapsed); FC end at 3.5 left (15:30 elapsed), ~90s duration",
-    "observations": "Roaster timer is a 19 min countdown this roast (not 17); user reports times as minutes remaining, converted to elapsed (19:00 - remaining). | Silverskin chaffing early (time not given). | User chose to hold 215C past full yellow (7:00 / 12 left) beyond the planned 225C step; step time TBD. | Drop timer: 150s after FC end (same actual development as roast 001, DTR 0.156 there)."
+    "observations": "Roaster timer is a 19 min countdown this roast (not 17); user reports times as minutes remaining, converted to elapsed (19:00 - remaining). | Silverskin chaffing early (time not given). | User chose to hold 215C past full yellow (7:00 / 12 left) beyond the planned 225C step; step time TBD. | Drop timer: 150s after FC end (same actual development as roast 001, DTR 0.156 there). | Actual drop at 1.5 left (17:30 elapsed): 120s after FC end, 30s short of the 150s timer plan."
   },
   "post_roast": {
     "roasted_weight_g": null,

@@ -79,7 +79,7 @@
     "aroma_maillard": "roasted nuts/peanuts smell from 5:00, still at 6:00",
     "aroma_development": "",
     "color_at_yellowing": "peanut color at 5:00 (12 left); full yellow at 6:00 (11 left); turning cinnamon at 8:00 (9 left); not quite full cinnamon at 10:00 (7 left); full cinnamon at 11:30 (5:30 left)",
-    "color_at_drop": "",
+    "color_at_drop": "dark brown, uniform; silverskin gone; bean center slightly darker than the shell; looks great",
     "crack_character": "FC onset audible at just under 5:00 left (~12:05 elapsed, approx); FC end at 3:30 left (13:30 elapsed), ~85s duration",
     "observations": "Plan source: private artifact page 'La Laja Roast Plan' (planned 2026-10-06). Drop on the timer, not by feel. Roaster timer is a 17 min countdown; user reports times as minutes remaining, converted to elapsed (17:00 - remaining). | Silverskin starting to chaff at 8:00 (9 left). | Deviation from plan: user chose to develop 120s after FC end (drop at 1:30 left / 15:30 elapsed) instead of the planned 90s. | Actual drop at 1:00 left (16:00 elapsed): beans looked too light at the 1:30 target, so development was extended to 150s (vs planned 90s, then 120s)."
   },

@@ -1,7 +1,7 @@
 {
   "id": "roast-20261009-001",
   "date": "2026-10-09",
-  "status": "in_progress",
+  "status": "roasted",
   "bean_id": "bean-004",
   "bean_snapshot": {
     "id": "bean-004",
@@ -69,10 +69,10 @@
     "first_crack_onset_s": 725,
     "first_crack_end_s": 810,
     "second_crack_onset_s": null,
-    "drop_s": null,
-    "total_time_s": null,
-    "development_time_s": null,
-    "development_time_ratio": null
+    "drop_s": 960,
+    "total_time_s": 960,
+    "development_time_s": 150,
+    "development_time_ratio": 0.156
   },
   "sensory": {
     "aroma_drying": "bread smell at 3:00 (14 min left on countdown); beans starting to dry out, still green",
@@ -81,7 +81,7 @@
     "color_at_yellowing": "peanut color at 5:00 (12 left); full yellow at 6:00 (11 left); turning cinnamon at 8:00 (9 left); not quite full cinnamon at 10:00 (7 left); full cinnamon at 11:30 (5:30 left)",
     "color_at_drop": "",
     "crack_character": "FC onset audible at just under 5:00 left (~12:05 elapsed, approx); FC end at 3:30 left (13:30 elapsed), ~85s duration",
-    "observations": "Plan source: private artifact page 'La Laja Roast Plan' (planned 2026-10-06). Drop on the timer, not by feel. Roaster timer is a 17 min countdown; user reports times as minutes remaining, converted to elapsed (17:00 - remaining). | Silverskin starting to chaff at 8:00 (9 left). | Deviation from plan: user chose to develop 120s after FC end (drop at 1:30 left / 15:30 elapsed) instead of the planned 90s."
+    "observations": "Plan source: private artifact page 'La Laja Roast Plan' (planned 2026-10-06). Drop on the timer, not by feel. Roaster timer is a 17 min countdown; user reports times as minutes remaining, converted to elapsed (17:00 - remaining). | Silverskin starting to chaff at 8:00 (9 left). | Deviation from plan: user chose to develop 120s after FC end (drop at 1:30 left / 15:30 elapsed) instead of the planned 90s. | Actual drop at 1:00 left (16:00 elapsed): beans looked too light at the 1:30 target, so development was extended to 150s (vs planned 90s, then 120s)."
   },
   "post_roast": {
     "roasted_weight_g": null,

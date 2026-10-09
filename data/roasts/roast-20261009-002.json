@@ -54,6 +54,13 @@
       "airflow": null,
       "drum_speed": null,
       "reason": "held 215C ~30s past full yellow (7:00) for extra drying; stepped at 11:30 left"
+    },
+    {
+      "elapsed_s": 630,
+      "temp_c": 235,
+      "airflow": null,
+      "drum_speed": null,
+      "reason": "cinnamon reached at 8:30 left; held ~30s past the 10:00 clock trigger"
     }
   ],
   "green_weight_g": 243.82,
@@ -71,7 +78,7 @@
     "aroma_drying": "",
     "aroma_maillard": "",
     "aroma_development": "",
-    "color_at_yellowing": "starting to turn peanut color at 4:00 (15 left); very peanut color later (time not given); full yellow at 7:00 (12 left); still a bit lighter than cinnamon at 10:00 (9 left)",
+    "color_at_yellowing": "starting to turn peanut color at 4:00 (15 left); very peanut color later (time not given); full yellow at 7:00 (12 left); still a bit lighter than cinnamon at 10:00 (9 left); cinnamon at 10:30 (8:30 left)",
     "color_at_drop": "",
     "crack_character": "",
     "observations": "Roaster timer is a 19 min countdown this roast (not 17); user reports times as minutes remaining, converted to elapsed (19:00 - remaining). | Silverskin chaffing early (time not given). | User chose to hold 215C past full yellow (7:00 / 12 left) beyond the planned 225C step; step time TBD."

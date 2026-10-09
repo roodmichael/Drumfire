@@ -1,6 +1,6 @@
 {
-  "id": "roast-20261008-001",
-  "date": "2026-10-08",
+  "id": "roast-20261009-001",
+  "date": "2026-10-09",
   "status": "in_progress",
   "bean_id": "bean-004",
   "bean_snapshot": {
@@ -44,7 +44,7 @@
     "initial_temp_c": 215,
     "initial_airflow": null,
     "initial_drum_speed": null,
-    "ambient_temp_f": null,
+    "ambient_temp_f": 67,
     "humidity_notes": ""
   },
   "adjustments": [],

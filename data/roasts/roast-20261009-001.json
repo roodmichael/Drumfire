@@ -84,8 +84,8 @@
     "observations": "Plan source: private artifact page 'La Laja Roast Plan' (planned 2026-10-06). Drop on the timer, not by feel. Roaster timer is a 17 min countdown; user reports times as minutes remaining, converted to elapsed (17:00 - remaining). | Silverskin starting to chaff at 8:00 (9 left). | Deviation from plan: user chose to develop 120s after FC end (drop at 1:30 left / 15:30 elapsed) instead of the planned 90s. | Actual drop at 1:00 left (16:00 elapsed): beans looked too light at the 1:30 target, so development was extended to 150s (vs planned 90s, then 120s)."
   },
   "post_roast": {
-    "roasted_weight_g": null,
-    "weight_loss_pct": null,
+    "roasted_weight_g": 194.7,
+    "weight_loss_pct": 9.5,
     "target_roast_level": "medium-light",
     "roast_level_achieved": "medium-light",
     "aroma_cooled": ""

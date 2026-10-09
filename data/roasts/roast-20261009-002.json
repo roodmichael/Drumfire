@@ -38,7 +38,7 @@
   },
   "intent": "medium-light roast - repeat of roast-20261009-001 on the same La Laja Honey plan to check repeatability (same steps and triggers)",
   "previous_roast_id": "roast-20261009-001",
-  "variable_changed": "Drying phase extended ~1 min vs roast 001: hold 215C until 7:00 elapsed (12:00 left) even if full yellow arrives earlier, then follow the same steps (235C at cinnamon or 10:00 elapsed).",
+  "variable_changed": "Drying phase extended ~1 min vs roast 001: hold 215C until 7:00 elapsed (12:00 left) even if full yellow arrives earlier, then follow the same steps (235C at cinnamon or 10:00 elapsed). | Also: lid closed on roaster this roast (roast 001 lid state not recorded); batch 243.82g vs 215.24g.",
   "hypothesis": "Repeating the same plan (215C charge; 225C at full yellow or 6:00-7:00 clock; 235C at cinnamon or 10:00 clock; no reduction at FC onset; drop on a timer after FC end) will reproduce roast 001: total ~16:00, DTR ~0.13-0.16, medium-light. Open question from roast 001: its weight loss was only 9.5% - a repeat shows whether that was a scale error or real under-drying. | Added during roast: roast 001 hit full yellow at 6:00 and lost only 9.5%, so holding 215C to 7:00 should add moisture loss and raise weight loss toward 12-13%.",
   "settings": {
     "initial_temp_c": 215,
@@ -79,9 +79,9 @@
     "aroma_maillard": "",
     "aroma_development": "",
     "color_at_yellowing": "starting to turn peanut color at 4:00 (15 left); very peanut color later (time not given); full yellow at 7:00 (12 left); still a bit lighter than cinnamon at 10:00 (9 left); cinnamon at 10:30 (8:30 left)",
-    "color_at_drop": "",
+    "color_at_drop": "much darker than roast 001",
     "crack_character": "FC onset at 5.0 left (14:00 elapsed; earlier 6.3 reading was a mistake); very audible at 4.2 left (14:48 elapsed); FC end at 3.5 left (15:30 elapsed), ~90s duration",
-    "observations": "Roaster timer is a 19 min countdown this roast (not 17); user reports times as minutes remaining, converted to elapsed (19:00 - remaining). | Silverskin chaffing early (time not given). | User chose to hold 215C past full yellow (7:00 / 12 left) beyond the planned 225C step; step time TBD. | Drop timer: 150s after FC end (same actual development as roast 001, DTR 0.156 there). | Actual drop at 1.5 left (17:30 elapsed): 120s after FC end, 30s short of the 150s timer plan."
+    "observations": "Roaster timer is a 19 min countdown this roast (not 17); user reports times as minutes remaining, converted to elapsed (19:00 - remaining). | Silverskin chaffing early (time not given). | User chose to hold 215C past full yellow (7:00 / 12 left) beyond the planned 225C step; step time TBD. | Drop timer: 150s after FC end (same actual development as roast 001, DTR 0.156 there). | Actual drop at 1.5 left (17:30 elapsed): 120s after FC end, 30s short of the 150s timer plan. | Roaster lid was CLOSED for this roast (user-reported; assumed not closed on roast 001). Color at drop much darker than roast 001."
   },
   "post_roast": {
     "roasted_weight_g": null,

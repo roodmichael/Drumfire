@@ -66,7 +66,7 @@
     "color_at_yellowing": "",
     "color_at_drop": "",
     "crack_character": "",
-    "observations": "Roaster timer is a 17 min countdown; user reports times as minutes remaining, converted to elapsed (17:00 - remaining)."
+    "observations": "Roaster timer is a 19 min countdown this roast (not 17); user reports times as minutes remaining, converted to elapsed (19:00 - remaining)."
   },
   "post_roast": {
     "roasted_weight_g": null,

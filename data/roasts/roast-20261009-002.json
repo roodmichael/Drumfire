@@ -47,7 +47,15 @@
     "ambient_temp_f": null,
     "humidity_notes": ""
   },
-  "adjustments": [],
+  "adjustments": [
+    {
+      "elapsed_s": 450,
+      "temp_c": 225,
+      "airflow": null,
+      "drum_speed": null,
+      "reason": "held 215C ~30s past full yellow (7:00) for extra drying; stepped at 11:30 left"
+    }
+  ],
   "green_weight_g": 243.82,
   "timeline": {
     "yellowing_s": 420,

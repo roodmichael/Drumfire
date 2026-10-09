@@ -50,7 +50,7 @@
   "adjustments": [],
   "green_weight_g": 243.82,
   "timeline": {
-    "yellowing_s": null,
+    "yellowing_s": 420,
     "first_crack_onset_s": null,
     "first_crack_end_s": null,
     "second_crack_onset_s": null,
@@ -63,7 +63,7 @@
     "aroma_drying": "",
     "aroma_maillard": "",
     "aroma_development": "",
-    "color_at_yellowing": "starting to turn peanut color at 4:00 (15 left); very peanut color later (time not given)",
+    "color_at_yellowing": "starting to turn peanut color at 4:00 (15 left); very peanut color later (time not given); full yellow at 7:00 (12 left)",
     "color_at_drop": "",
     "crack_character": "",
     "observations": "Roaster timer is a 19 min countdown this roast (not 17); user reports times as minutes remaining, converted to elapsed (19:00 - remaining). | Silverskin chaffing early (time not given)."

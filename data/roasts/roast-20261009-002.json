@@ -1,0 +1,79 @@
+{
+  "id": "roast-20261009-002",
+  "date": "2026-10-09",
+  "status": "in_progress",
+  "bean_id": "bean-004",
+  "bean_snapshot": {
+    "id": "bean-004",
+    "name": "Mexico La Laja Honey",
+    "origin_country": "Mexico",
+    "origin_region": "Tlaltetela, Veracruz",
+    "farm_producer": "La Laja",
+    "variety": "Caturra, Garnica",
+    "altitude_masl": 1190,
+    "processing": "honey",
+    "supplier": "Coffee Bean Corral",
+    "lot_number": "",
+    "harvest_year": null,
+    "purchase_date": "2026-09-01",
+    "notes": "Altitude range 1130–1250 masl"
+  },
+  "roaster_id": "roaster-001",
+  "roaster_snapshot": {
+    "id": "roaster-001",
+    "name": "GeneCafe CB-101",
+    "manufacturer": "GeneCafe",
+    "model": "CB-101",
+    "type": "drum",
+    "capacity_min_g": null,
+    "capacity_max_g": 250,
+    "controls": {
+      "temperature": true,
+      "airflow": false,
+      "drum_speed": false,
+      "timer": true
+    },
+    "temperature_display": "air temperature, not bean temp",
+    "notes": ""
+  },
+  "intent": "medium-light roast - repeat of roast-20261009-001 on the same La Laja Honey plan to check repeatability (same steps and triggers)",
+  "previous_roast_id": "roast-20261009-001",
+  "variable_changed": null,
+  "hypothesis": "Repeating the same plan (215C charge; 225C at full yellow or 6:00-7:00 clock; 235C at cinnamon or 10:00 clock; no reduction at FC onset; drop on a timer after FC end) will reproduce roast 001: total ~16:00, DTR ~0.13-0.16, medium-light. Open question from roast 001: its weight loss was only 9.5% - a repeat shows whether that was a scale error or real under-drying.",
+  "settings": {
+    "initial_temp_c": 215,
+    "initial_airflow": null,
+    "initial_drum_speed": null,
+    "ambient_temp_f": null,
+    "humidity_notes": ""
+  },
+  "adjustments": [],
+  "green_weight_g": null,
+  "timeline": {
+    "yellowing_s": null,
+    "first_crack_onset_s": null,
+    "first_crack_end_s": null,
+    "second_crack_onset_s": null,
+    "drop_s": null,
+    "total_time_s": null,
+    "development_time_s": null,
+    "development_time_ratio": null
+  },
+  "sensory": {
+    "aroma_drying": "",
+    "aroma_maillard": "",
+    "aroma_development": "",
+    "color_at_yellowing": "",
+    "color_at_drop": "",
+    "crack_character": "",
+    "observations": "Roaster timer is a 17 min countdown; user reports times as minutes remaining, converted to elapsed (17:00 - remaining)."
+  },
+  "post_roast": {
+    "roasted_weight_g": null,
+    "weight_loss_pct": null,
+    "target_roast_level": "medium-light",
+    "roast_level_achieved": "",
+    "aroma_cooled": ""
+  },
+  "cuppings": []
+}

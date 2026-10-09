@@ -61,9 +61,9 @@
   },
   "sensory": {
     "aroma_drying": "bread smell at '14' (time unconfirmed); beans starting to dry out, still green",
-    "aroma_maillard": "",
+    "aroma_maillard": "roasted nuts smell at ~12:00",
     "aroma_development": "",
-    "color_at_yellowing": "",
+    "color_at_yellowing": "peanut color at 12:00 (full yellow not yet reported)",
     "color_at_drop": "",
     "crack_character": "",
     "observations": "Plan source: private artifact page 'La Laja Roast Plan' (planned 2026-10-06). Log ambient/room temp and first crack end time. Drop on the timer, not by feel. | Roaster timer set for 17 (min, assumed)."

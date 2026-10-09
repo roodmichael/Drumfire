@@ -38,8 +38,8 @@
   },
   "intent": "medium-light roast - repeat of roast-20261009-001 on the same La Laja Honey plan to check repeatability (same steps and triggers)",
   "previous_roast_id": "roast-20261009-001",
-  "variable_changed": null,
-  "hypothesis": "Repeating the same plan (215C charge; 225C at full yellow or 6:00-7:00 clock; 235C at cinnamon or 10:00 clock; no reduction at FC onset; drop on a timer after FC end) will reproduce roast 001: total ~16:00, DTR ~0.13-0.16, medium-light. Open question from roast 001: its weight loss was only 9.5% - a repeat shows whether that was a scale error or real under-drying.",
+  "variable_changed": "Drying phase extended ~1 min vs roast 001: hold 215C until 7:00 elapsed (12:00 left) even if full yellow arrives earlier, then follow the same steps (235C at cinnamon or 10:00 elapsed).",
+  "hypothesis": "Repeating the same plan (215C charge; 225C at full yellow or 6:00-7:00 clock; 235C at cinnamon or 10:00 clock; no reduction at FC onset; drop on a timer after FC end) will reproduce roast 001: total ~16:00, DTR ~0.13-0.16, medium-light. Open question from roast 001: its weight loss was only 9.5% - a repeat shows whether that was a scale error or real under-drying. | Added during roast: roast 001 hit full yellow at 6:00 and lost only 9.5%, so holding 215C to 7:00 should add moisture loss and raise weight loss toward 12-13%.",
   "settings": {
     "initial_temp_c": 215,
     "initial_airflow": null,

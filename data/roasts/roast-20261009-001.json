@@ -1,7 +1,7 @@
 {
   "id": "roast-20261009-001",
   "date": "2026-10-09",
-  "status": "roasted",
+  "status": "cupped",
   "bean_id": "bean-004",
   "bean_snapshot": {
     "id": "bean-004",
@@ -93,32 +93,36 @@
   "cuppings": [
     {
       "cupping_date": "2026-10-13",
-      "rest_hours": null,
+      "rest_hours": 96,
       "brew_method": "pourover",
       "aroma_dry": "nutty, milk chocolate",
       "aroma_wet": "",
       "acidity": {
-        "rating": null,
-        "notes": ""
+        "rating": 2,
+        "notes": "kinda grassy"
       },
       "sweetness": {
-        "rating": null,
+        "rating": 2,
         "notes": ""
       },
       "body": {
-        "rating": null,
+        "rating": 2,
         "notes": ""
       },
-      "finish_length": "",
-      "finish_quality": "",
+      "finish_length": "medium",
+      "finish_quality": "not all that bad",
       "flavor_descriptors": [
         "nutty",
         "milk chocolate"
       ],
-      "defect_flags": [],
-      "overall_rating": null,
-      "tasting_notes_free": "Initial taste: underdeveloped, maybe flabby (in progress).",
-      "hypothesis_result": "",
+      "defect_flags": [
+        "underdeveloped",
+        "grassy",
+        "papery"
+      ],
+      "overall_rating": 5,
+      "tasting_notes_free": "Pourover. Dry aroma nutty and milk chocolate. Initial taste underdeveloped, maybe flabby. Acidity grassy. Finish medium and better than expected. Rest ~4 days (roasted 8am on 2026-10-09; cup time not recorded, rest_hours approximate).",
+      "hypothesis_result": "PARTIALLY CONTRADICTED. Timing came in on plan (16:00 total, 150s development, DTR 0.156 - better than the ~0.10 planned), but weight loss was only 9.5% vs ~13% expected and the roast landed light/blonde, not medium-light. The cup was underdeveloped, grassy and papery with low sweetness and body (5/10), so extra development time did not fix it - the roast was likely under-dried or got too little total energy. Compare roast 002 (14.7% loss, medium-dark, scorched aroma).",
       "next_adjustment": ""
     }
   ]

@@ -90,5 +90,36 @@
     "roast_level_achieved": "light",
     "aroma_cooled": "kind of sweet"
   },
-  "cuppings": []
+  "cuppings": [
+    {
+      "cupping_date": "2026-10-13",
+      "rest_hours": null,
+      "brew_method": "pourover",
+      "aroma_dry": "nutty, milk chocolate",
+      "aroma_wet": "",
+      "acidity": {
+        "rating": null,
+        "notes": ""
+      },
+      "sweetness": {
+        "rating": null,
+        "notes": ""
+      },
+      "body": {
+        "rating": null,
+        "notes": ""
+      },
+      "finish_length": "",
+      "finish_quality": "",
+      "flavor_descriptors": [
+        "nutty",
+        "milk chocolate"
+      ],
+      "defect_flags": [],
+      "overall_rating": null,
+      "tasting_notes_free": "Initial taste: underdeveloped, maybe flabby (in progress).",
+      "hypothesis_result": "",
+      "next_adjustment": ""
+    }
+  ]
 }

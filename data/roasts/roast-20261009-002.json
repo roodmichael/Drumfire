@@ -120,8 +120,8 @@
       ],
       "overall_rating": 6,
       "tasting_notes_free": "Pourover. Dry grounds smelled of smoke and earth, closer to a dark roast than a city roast. Finish like late-night cafe coffee. Defects: smoky, a little acrid (mapped to 'scorched' in defect_flags; smoky/acrid are not in the enum). Rest ~4 days (roasted 8am 2026-10-09, cup time not recorded, rest_hours approximate).",
-      "hypothesis_result": "",
-      "next_adjustment": ""
+      "hypothesis_result": "NOT A CLEAN REPEAT. The plan was to repeat roast 001 (open lid). Roast 002 changed batch size (243.82g vs 215.24g), drying (+~1 min at 215C), lid (closed), roaster start state (hot from roast 001) and dropped 120s after FC end instead of 150s. Result: medium-dark, 14.7% weight loss, scorched cooled aroma, smoky and a little acrid in the cup, 6/10 vs 5/10 for roast 001. Sweetness 3 vs 2, body 4 vs 2, acidity 3 vs 2 improved; smoke/acrid replaced grassy/underdeveloped. The closed lid plus residual heat likely drove the extra roast level and smoke.",
+      "next_adjustment": "Keep the lid closed and drop earlier: drop 60s after first crack ends (not 150s/120s). Everything else as before: 215C charge, 225C at full yellow or 7:00, 235C at cinnamon or 10:00, no reduction at FC onset, cooled-roaster start, ~220-240g batch. Goal: medium-light, 12-13% weight loss, no smoke or acrid notes, keep the sweetness/body gains from roast 002 and the clean character of roast 001. Log lid state, roaster start state and ambient temp. Note DTR will drop to ~0.06-0.07 at a 60s drop, so watch for grassy/underdeveloped notes."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "roast-20261009-002",
   "date": "2026-10-09",
-  "status": "roasted",
+  "status": "cupped",
   "bean_id": "bean-004",
   "bean_snapshot": {
     "id": "bean-004",
@@ -90,5 +90,38 @@
     "roast_level_achieved": "medium-dark",
     "aroma_cooled": "a bit scorched"
   },
-  "cuppings": []
+  "cuppings": [
+    {
+      "cupping_date": "2026-10-13",
+      "rest_hours": 96,
+      "brew_method": "pourover",
+      "aroma_dry": "smoke and earth; closer to a dark roast than a city roast",
+      "aroma_wet": "",
+      "acidity": {
+        "rating": 3,
+        "notes": ""
+      },
+      "sweetness": {
+        "rating": 3,
+        "notes": ""
+      },
+      "body": {
+        "rating": 4,
+        "notes": ""
+      },
+      "finish_length": "medium",
+      "finish_quality": "late-night cafe coffee finish",
+      "flavor_descriptors": [
+        "smoke",
+        "earth"
+      ],
+      "defect_flags": [
+        "scorched"
+      ],
+      "overall_rating": null,
+      "tasting_notes_free": "Pourover. Dry grounds smelled of smoke and earth, closer to a dark roast than a city roast. Finish like late-night cafe coffee. Defects: smoky, a little acrid (mapped to 'scorched' in defect_flags; smoky/acrid are not in the enum). Rest ~4 days (roasted 8am 2026-10-09, cup time not recorded, rest_hours approximate).",
+      "hypothesis_result": "",
+      "next_adjustment": ""
+    }
+  ]
 }

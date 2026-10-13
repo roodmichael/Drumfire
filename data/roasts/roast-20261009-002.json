@@ -118,7 +118,7 @@
       "defect_flags": [
         "scorched"
       ],
-      "overall_rating": null,
+      "overall_rating": 6,
       "tasting_notes_free": "Pourover. Dry grounds smelled of smoke and earth, closer to a dark roast than a city roast. Finish like late-night cafe coffee. Defects: smoky, a little acrid (mapped to 'scorched' in defect_flags; smoky/acrid are not in the enum). Rest ~4 days (roasted 8am 2026-10-09, cup time not recorded, rest_hours approximate).",
       "hypothesis_result": "",
       "next_adjustment": ""

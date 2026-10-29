@@ -1,0 +1,79 @@
+{
+  "id": "roast-20261030-001",
+  "date": "2026-10-30",
+  "status": "in_progress",
+  "bean_id": "bean-005",
+  "bean_snapshot": {
+    "id": "bean-005",
+    "name": "Mexico Mocabe HG",
+    "origin_country": "Mexico",
+    "origin_region": "Chiapas",
+    "farm_producer": "",
+    "variety": "Bourbon, Caturra, Catuai",
+    "altitude_masl": 1350,
+    "processing": "washed",
+    "supplier": "",
+    "lot_number": "",
+    "harvest_year": null,
+    "purchase_date": "",
+    "notes": "HG grade as named by user."
+  },
+  "roaster_id": "roaster-001",
+  "roaster_snapshot": {
+    "id": "roaster-001",
+    "name": "GeneCafe CB-101",
+    "manufacturer": "GeneCafe",
+    "model": "CB-101",
+    "type": "drum",
+    "capacity_min_g": null,
+    "capacity_max_g": 250,
+    "controls": {
+      "temperature": true,
+      "airflow": false,
+      "drum_speed": false,
+      "timer": true
+    },
+    "temperature_display": "air temperature, not bean temp",
+    "notes": ""
+  },
+  "intent": "medium-light roast - first roast of a new bean, establish a baseline for Mexico Mocabe HG (washed, Chiapas, 1350 masl)",
+  "previous_roast_id": null,
+  "variable_changed": "Baseline for this bean. Carrying over from the La Laja roasts: lid closed, cooled-roaster start, drop on a timer 90s after FC end (compromise between the 60s drop proposed and the 150s/120s used earlier).",
+  "hypothesis": "On a cooled CB-101 with the lid closed, a 215C charge, 225C at full yellow or 7:00, 235C at cinnamon or 10:00 (no reduction at FC onset) and a timer-driven drop 90s after FC end will give a medium-light roast with 12-13% weight loss, 12-16 min total and DTR ~0.09, sweet and without the smoke seen in roast-20261009-002.",
+  "settings": {
+    "initial_temp_c": 215,
+    "initial_airflow": null,
+    "initial_drum_speed": null,
+    "ambient_temp_f": null,
+    "humidity_notes": ""
+  },
+  "adjustments": [],
+  "green_weight_g": 235,
+  "timeline": {
+    "yellowing_s": null,
+    "first_crack_onset_s": null,
+    "first_crack_end_s": null,
+    "second_crack_onset_s": null,
+    "drop_s": null,
+    "total_time_s": null,
+    "development_time_s": null,
+    "development_time_ratio": null
+  },
+  "sensory": {
+    "aroma_drying": "",
+    "aroma_maillard": "",
+    "aroma_development": "",
+    "color_at_yellowing": "",
+    "color_at_drop": "",
+    "crack_character": "",
+    "observations": "Roaster timer is a 19 min countdown; user tracks times and reports minutes remaining, converted to elapsed (19:00 - remaining). Lid closed. Start from a cooled roaster; log ambient temp and roaster start temp."
+  },
+  "post_roast": {
+    "roasted_weight_g": null,
+    "weight_loss_pct": null,
+    "target_roast_level": "medium-light",
+    "roast_level_achieved": "",
+    "aroma_cooled": ""
+  },
+  "cuppings": []
+}

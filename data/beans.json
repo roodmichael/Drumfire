@@ -58,5 +58,20 @@
     "harvest_year": null,
     "purchase_date": "2026-09-01",
     "notes": "Altitude range 1130–1250 masl"
+  },
+  {
+    "id": "bean-005",
+    "name": "Mexico Mocabe HG",
+    "origin_country": "Mexico",
+    "origin_region": "Chiapas",
+    "farm_producer": "",
+    "variety": "Bourbon, Caturra, Catuai",
+    "altitude_masl": 1350,
+    "processing": "washed",
+    "supplier": "",
+    "lot_number": "",
+    "harvest_year": null,
+    "purchase_date": "",
+    "notes": "HG grade as named by user."
   }
 ]

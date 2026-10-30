@@ -44,7 +44,7 @@
     "initial_temp_c": 215,
     "initial_airflow": null,
     "initial_drum_speed": null,
-    "ambient_temp_f": null,
+    "ambient_temp_f": 68,
     "humidity_notes": ""
   },
   "adjustments": [],
@@ -66,7 +66,7 @@
     "color_at_yellowing": "",
     "color_at_drop": "",
     "crack_character": "",
-    "observations": "Roaster timer is a 19 min countdown; times reported as minutes remaining, converted to elapsed (19:00 - remaining). Lid closed. Back-to-back roast right after roast-20261030-001: roaster start temperature to be confirmed."
+    "observations": "Roaster timer is a 19 min countdown; times reported as minutes remaining, converted to elapsed (19:00 - remaining). Lid closed. Back-to-back roast right after roast-20261030-001: roaster start temperature to be confirmed. | Roast already running at 2:30 elapsed (16.5 left) at first report. Roaster start temp not confirmed by user."
   },
   "post_roast": {
     "roasted_weight_g": null,

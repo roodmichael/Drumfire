@@ -84,8 +84,8 @@
     "observations": "Roaster timer is a 19 min countdown; times reported as minutes remaining, converted to elapsed (19:00 - remaining). Lid closed. Back-to-back roast right after roast-20261030-001. | Roast already running at 2:30 elapsed (16.5 left) at first report. Roaster cooled to the 215C charge temperature before charging (confirmed by user). | Lid opened at FC end (1:00 left / 18:00 elapsed). Slight smoke noted right after. | Dropped at -0:30 on the 19 min countdown (19:30 elapsed), 90s after FC end per plan. Scorch is general, not tipped."
   },
   "post_roast": {
-    "roasted_weight_g": null,
-    "weight_loss_pct": null,
+    "roasted_weight_g": 194.81,
+    "weight_loss_pct": 12.6,
     "target_roast_level": "medium-light",
     "roast_level_achieved": "",
     "aroma_cooled": ""

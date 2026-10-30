@@ -1,7 +1,7 @@
 {
   "id": "roast-20261030-002",
   "date": "2026-10-30",
-  "status": "in_progress",
+  "status": "roasted",
   "bean_id": "bean-005",
   "bean_snapshot": {
     "id": "bean-005",
@@ -69,19 +69,19 @@
     "first_crack_onset_s": 930,
     "first_crack_end_s": 1080,
     "second_crack_onset_s": null,
-    "drop_s": null,
-    "total_time_s": null,
-    "development_time_s": null,
-    "development_time_ratio": null
+    "drop_s": 1170,
+    "total_time_s": 1170,
+    "development_time_s": 90,
+    "development_time_ratio": 0.077
   },
   "sensory": {
     "aroma_drying": "",
     "aroma_maillard": "still good, nutty (after the 225C step at 7:00)",
     "aroma_development": "a little smoke after opening the lid at FC end (18:00 elapsed)",
     "color_at_yellowing": "still peanut color at 7:00 (12:00 left); user suspects roaster cooled too much below charge temp; not quite cinnamon at 10:00 (9:00 left), behind roast 001; cinnamon at 12:00 elapsed (7:00 left)",
-    "color_at_drop": "a touch scorched (drop time not yet confirmed)",
+    "color_at_drop": "a touch scorched, general (overall surface cast), not at the tips",
     "crack_character": "FC onset at 3:30 left (15:30 elapsed); FC end at 1:00 left (18:00 elapsed), ~150s duration",
-    "observations": "Roaster timer is a 19 min countdown; times reported as minutes remaining, converted to elapsed (19:00 - remaining). Lid closed. Back-to-back roast right after roast-20261030-001. | Roast already running at 2:30 elapsed (16.5 left) at first report. Roaster cooled to the 215C charge temperature before charging (confirmed by user). | Lid opened at FC end (1:00 left / 18:00 elapsed). Slight smoke noted right after."
+    "observations": "Roaster timer is a 19 min countdown; times reported as minutes remaining, converted to elapsed (19:00 - remaining). Lid closed. Back-to-back roast right after roast-20261030-001. | Roast already running at 2:30 elapsed (16.5 left) at first report. Roaster cooled to the 215C charge temperature before charging (confirmed by user). | Lid opened at FC end (1:00 left / 18:00 elapsed). Slight smoke noted right after. | Dropped at -0:30 on the 19 min countdown (19:30 elapsed), 90s after FC end per plan. Scorch is general, not tipped."
   },
   "post_roast": {
     "roasted_weight_g": null,

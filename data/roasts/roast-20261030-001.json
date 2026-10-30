@@ -54,6 +54,13 @@
       "airflow": null,
       "drum_speed": null,
       "reason": "full yellow at 6:30 (12:30 left), stepped on yellow"
+    },
+    {
+      "elapsed_s": 600,
+      "temp_c": 235,
+      "airflow": null,
+      "drum_speed": null,
+      "reason": "9:00 left clock trigger (10:00 elapsed); very light cinnamon, warm toasty aroma"
     }
   ],
   "green_weight_g": 235,
@@ -69,7 +76,7 @@
   },
   "sensory": {
     "aroma_drying": "very fresh wheat or dough smell at 3:00 elapsed (16:00 left)",
-    "aroma_maillard": "nice nutty aromas at 7:30 (11:30 left); baked nuts at 8:30 (10:30 left)",
+    "aroma_maillard": "nice nutty aromas at 7:30 (11:30 left); warm, toasty baked nuts at 8:30 (10:30 left)",
     "aroma_development": "",
     "color_at_yellowing": "not quite peanut color at 5:00 (14 left); peanut color at 5:30 (13:30 left); full yellow at 6:30 (12:30 left); very light cinnamon at 8:30 (10:30 left)",
     "color_at_drop": "",

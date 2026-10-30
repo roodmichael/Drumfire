@@ -47,7 +47,15 @@
     "ambient_temp_f": 68,
     "humidity_notes": ""
   },
-  "adjustments": [],
+  "adjustments": [
+    {
+      "elapsed_s": null,
+      "temp_c": 225,
+      "airflow": null,
+      "drum_speed": null,
+      "reason": "full yellow at 6:30 (12:30 left); exact step time not given, between 6:30 and 7:00 elapsed"
+    }
+  ],
   "green_weight_g": 235,
   "timeline": {
     "yellowing_s": 390,

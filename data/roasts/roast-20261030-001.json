@@ -84,7 +84,7 @@
   "sensory": {
     "aroma_drying": "very fresh wheat or dough smell at 3:00 elapsed (16:00 left)",
     "aroma_maillard": "nice nutty aromas at 7:30 (11:30 left); warm, toasty baked nuts at 8:30 (10:30 left)",
-    "aroma_development": "",
+    "aroma_development": "no scorching smells (lid opened at FC end)",
     "color_at_yellowing": "not quite peanut color at 5:00 (14 left); peanut color at 5:30 (13:30 left); full yellow at 6:30 (12:30 left); very light cinnamon at 8:30 (10:30 left); full cinnamon at 10:00 (9:00 left)",
     "color_at_drop": "",
     "crack_character": "FC onset at 5:00 left (14:00 elapsed); FC end at 3:00 left (16:00 elapsed), ~120s duration",

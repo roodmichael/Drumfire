@@ -69,7 +69,7 @@
   },
   "sensory": {
     "aroma_drying": "very fresh wheat or dough smell at 3:00 elapsed (16:00 left)",
-    "aroma_maillard": "",
+    "aroma_maillard": "nice nutty aromas at 7:30 (11:30 left)",
     "aroma_development": "",
     "color_at_yellowing": "not quite peanut color at 5:00 (14 left); peanut color at 5:30 (13:30 left); full yellow at 6:30 (12:30 left)",
     "color_at_drop": "",

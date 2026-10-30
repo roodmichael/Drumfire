@@ -1,7 +1,7 @@
 {
   "id": "roast-20261030-001",
   "date": "2026-10-30",
-  "status": "in_progress",
+  "status": "roasted",
   "bean_id": "bean-005",
   "bean_snapshot": {
     "id": "bean-005",
@@ -76,17 +76,17 @@
     "first_crack_onset_s": 840,
     "first_crack_end_s": 960,
     "second_crack_onset_s": null,
-    "drop_s": null,
-    "total_time_s": null,
-    "development_time_s": null,
-    "development_time_ratio": null
+    "drop_s": 1050,
+    "total_time_s": 1050,
+    "development_time_s": 90,
+    "development_time_ratio": 0.086
   },
   "sensory": {
     "aroma_drying": "very fresh wheat or dough smell at 3:00 elapsed (16:00 left)",
     "aroma_maillard": "nice nutty aromas at 7:30 (11:30 left); warm, toasty baked nuts at 8:30 (10:30 left)",
     "aroma_development": "no scorching smells (lid opened at FC end)",
     "color_at_yellowing": "not quite peanut color at 5:00 (14 left); peanut color at 5:30 (13:30 left); full yellow at 6:30 (12:30 left); very light cinnamon at 8:30 (10:30 left); full cinnamon at 10:00 (9:00 left)",
-    "color_at_drop": "color looks great; beans visibly popped (swollen) - drop time not yet confirmed",
+    "color_at_drop": "looks great; beans visibly popped (swollen)",
     "crack_character": "FC onset at 5:00 left (14:00 elapsed); FC end at 3:00 left (16:00 elapsed), ~120s duration",
     "observations": "Roaster timer is a 19 min countdown; user tracks times and reports minutes remaining, converted to elapsed (19:00 - remaining). Lid closed. Start from a cooled roaster; log ambient temp and roaster start temp. | Roaster start: cooled to the 215C charge temperature before charging. | Green beans have a blueish tint (noted at charge). | Lid closed for this roast (confirmed by user at charge). | Lid opened at 3:00 left (16:00 elapsed, at FC end) to prevent scorching; lid closed before that."
   },

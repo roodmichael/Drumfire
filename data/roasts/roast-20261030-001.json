@@ -91,8 +91,8 @@
     "observations": "Roaster timer is a 19 min countdown; user tracks times and reports minutes remaining, converted to elapsed (19:00 - remaining). Lid closed. Start from a cooled roaster; log ambient temp and roaster start temp. | Roaster start: cooled to the 215C charge temperature before charging. | Green beans have a blueish tint (noted at charge). | Lid closed for this roast (confirmed by user at charge). | Lid opened at 3:00 left (16:00 elapsed, at FC end) to prevent scorching; lid closed before that."
   },
   "post_roast": {
-    "roasted_weight_g": null,
-    "weight_loss_pct": null,
+    "roasted_weight_g": 204.6,
+    "weight_loss_pct": 12.9,
     "target_roast_level": "medium-light",
     "roast_level_achieved": "",
     "aroma_cooled": ""
